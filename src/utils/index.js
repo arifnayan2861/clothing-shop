@@ -188,7 +188,7 @@ export const AvailableSizes = [
   },
 ];
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyAdKMEbpyPPKsJYDc8joPEnSw8s2-5UU5E",
   authDomain: "ecwd-15d7d.firebaseapp.com",
   projectId: "ecwd-15d7d",

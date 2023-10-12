@@ -24,7 +24,7 @@ export default function ProductTile({ item }) {
       <div className="my-4 mx-auto flex w-10/12 flex-col items-start justify-between">
         <div className="mb-2 flex">
           <p
-            className={`mr-3 text-sm font-semibold ${
+            className={`text-black mr-3 text-sm font-semibold ${
               item.onSale === "yes" ? "line-through" : ""
             }`}
           >{`$ ${item.price}`}</p>

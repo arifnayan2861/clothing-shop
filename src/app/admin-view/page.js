@@ -2,7 +2,7 @@
 
 import ComponentLevelLoader from "@/components/Loader/componentlevel";
 import { GlobalContext } from "@/context";
-// import { getAllOrdersForAllUsers, updateStatusOfOrder } from "@/services/order";
+import { getAllOrdersForAllUsers, updateStatusOfOrder } from "@/services/order";
 import { useContext, useEffect } from "react";
 import { PulseLoader } from "react-spinners";
 
