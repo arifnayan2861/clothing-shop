@@ -64,7 +64,7 @@ export default function GlobalState({ children }) {
       setCartItems(getCartItems);
     } else {
       setIsAuthUser(false);
-      setUser({}); //unauthenticated user
+      setUser({});
     }
   }, [Cookies]);
 
