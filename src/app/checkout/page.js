@@ -169,7 +169,7 @@ export default function Checkout() {
           <div className="mx-auto mt-8 max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
             <div className="bg-white shadow">
               <div className="px-4 py-6 sm:px-8 sm:py-10 flex flex-col gap-5">
-                <h1 className="font-bold text-lg">
+                <h1 className="font-bold text-lg text-black">
                   Your payment is successfull and you will be redirected to
                   orders page in 2 seconds !
                 </h1>
@@ -237,7 +237,7 @@ export default function Checkout() {
                 <div
                   onClick={() => handleSelectedAddress(item)}
                   key={item._id}
-                  className={`border p-6 ${
+                  className={`border p-6 text-black ${
                     item._id === selectedAddress ? "border-red-900" : ""
                   }`}
                 >

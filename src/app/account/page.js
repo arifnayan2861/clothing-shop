@@ -130,7 +130,7 @@ export default function Account() {
             <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
               {/* we have render random user image here */}
             </div>
-            <div className="flex flex-col flex-1">
+            <div className="flex flex-col flex-1 text-black">
               <h4 className="text-lg font-semibold text-center md:text-left">
                 {user?.name}
               </h4>
@@ -156,7 +156,7 @@ export default function Account() {
                 <div className="mt-4 flex flex-col gap-4">
                   {addresses && addresses.length ? (
                     addresses.map((item) => (
-                      <div className="border p-6" key={item._id}>
+                      <div className="border p-6 text-black" key={item._id}>
                         <p>Name : {item.fullName}</p>
                         <p>Address : {item.address}</p>
                         <p>City : {item.city}</p>

@@ -72,7 +72,7 @@ export default function Orders() {
                         className="bg-gray-200 shadow p-5 flex flex-col space-y-3 py-6 text-left"
                       >
                         <div className="flex">
-                          <h1 className="font-bold text-lg mb-3 flex-1">
+                          <h1 className="text-black font-bold text-lg mb-3 flex-1">
                             #order: {item._id}
                           </h1>
                           <div className="flex items-center">
